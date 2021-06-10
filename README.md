@@ -11,7 +11,7 @@ Use Typescript and any third party libraries you like. This project is about eva
 The application should include 
 * An input to enter a github users username
 * A button to retrieve the entered users data
-* A pie chart to display the users repositories by language
+* A chart to display the users repositories by language
 * A table to display the users repositories with the below columns
   Repo name, Language, Date created, Date updated  
 
