@@ -4,7 +4,7 @@ Create a React application that retrieves and displays a Github users repositori
 
 ## Creating the project
 
-Use Typescript and any charting library you like. This project is about evaluating your skill and learning about your prefernces and style.
+Use Typescript and any third party libraries you like. This project is about evaluating your skill and learning about your prefernces and style.
 
 ## UX/UI
 
@@ -13,7 +13,14 @@ The application should include
 * A button to retrieve the entered users data
 * A pie chart to display the users repositories by language
 * A table to display the users repositories with the below columns
-  Repo name, Language, Date created, Date updated
+  Repo name, Language, Date created, Date updated  
+
+## Additional functionality
+
+* Add a different chart type that displays some other data by modifying the getUserData api call
+* Add an indicator when data is loading
+* Add sorting functionality to the repositories table
+* Deal with errors coming from Github
 
 ## Retrieving data
 
@@ -33,11 +40,3 @@ be reviewed with the following criteria in mind:
 * Readability and code cleanliness
 
 Successful candidates will be asked to provide any insights regarding their choices and practices.
-
-## Bonus (don't need to be in the below specific order)
-
-* Add a different chart type that displays some other user data by modifying the getUserData api call
-* Add an indicator when data is loading
-* Add sorting functionality to the repositories table
-* Have a clean looking UI using a component library of your choice
-* Deal with errors coming from Github
